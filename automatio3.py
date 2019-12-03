@@ -1,6 +1,5 @@
 import telnetlib 
 import getpass
-import time
 user = input("Enter your Username: ")
 password = getpass.getpass()
 Host=["192.168.122.100","192.168.122.200"] # List of the routers and switches.
